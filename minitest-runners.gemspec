@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata = { "github_repo" => "ssh://github.com/takkii/minitest-runner" }
   spec.metadata["yard.run"] = "yri"
   spec.rubygems_version = "3.1.2"
+  spec.licenses = ["MIT"]
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
