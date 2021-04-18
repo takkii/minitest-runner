@@ -1,0 +1,48 @@
+# frozen_string_literal: true
+
+# --------------------------------------
+require 'minitest'
+require 'minitest/autorun'
+require 'minitest/unit'
+require 'minitest/reporters'
+# --------------------------------------
+
+# Encoding Setting.
+Encoding.default_internal = 'UTF-8'
+Encoding.default_external = 'UTF-8'
+
+# SubClass test function.
+class MiniTestOne
+  def mini_test
+    Dir["#{File.dirname(__FILE__)}/mini_test/*.rb"].sort.filter do |file|
+      require file
+    end
+  end
+end
+
+# SubClass current directory
+class MiniFilename
+  def mini_find
+    puts Dir.glob("#{File.dirname(__FILE__)}/mini_test/*.rb")
+  end
+end
+
+# Super Class with refinements methods.
+module MiniFile
+  refine MiniTestOne do
+    def enter
+      mini_test
+    end
+  end
+end
+
+# Super Class feeting refinements mehtod.
+module MiniFileN
+  refine MiniFilename do
+    def anker
+      mini_find
+    end
+  end
+end
+
+__END__
