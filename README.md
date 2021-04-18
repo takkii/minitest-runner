@@ -13,6 +13,8 @@ C:/Rubyインストール先/lib/ruby/gems/3.0.0/gems/minitest-runners-1.0.0/lib
 
 > Rubyファイル内に記述
 
+> ruby runner.rb
+
 require 'minitest-runners'
 
 ### 実行結果
