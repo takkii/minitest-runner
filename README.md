@@ -19,11 +19,12 @@ cp -r mini_test ~/mini_test
 ※ ~/はホームディレクトリ
 ```
 
-> Rubyファイル内に記述
-
 > ruby runner.rb
 
+```ruby
+# Rubyファイル内に記述
 require 'minitest-runners'
+```
 
 ### 実行結果
 
