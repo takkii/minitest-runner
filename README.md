@@ -4,11 +4,19 @@ gem 'minitest-reporters'に依存しています。
 
 #### ./mini_testフォルダへテストファイルを入れます
 
-> Windows環境
+```markdown
+https://github.com/takkii/minitest-runner.git
+cd minitest-runner
+cp -r mini_test ~/mini_test
+```
+
+> 環境
 
 ```markdown
-C:/Rubyインストール先/lib/ruby/gems/3.0.0/gems/minitest-runners-1.0.0/lib/mini_test/mini_test_date.rb
-C:/Rubyインストール先/lib/ruby/gems/3.0.0/gems/minitest-runners-1.0.0/lib/mini_test/test_helper.rb
+~/mini_test/mini_test_date.rb
+~/mini_test/test_helper.rb
+
+※ ~/はホームディレクトリ
 ```
 
 > Rubyファイル内に記述
@@ -21,8 +29,8 @@ require 'minitest-runners'
 
 ```markdown
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ mini_test in filename list ~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:/Rubyインストール先/lib/ruby/gems/3.0.0/gems/minitest-runners-1.0.0/lib/mini_test/mini_test_date.rb
-C:/Rubyインストール先/lib/ruby/gems/3.0.0/gems/minitest-runners-1.0.0/lib/mini_test/test_helper.rb
+~/mini_test/mini_test_date.rb
+~/mini_test/test_helper.rb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ minitest file load ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ mini_test in filename list ~~~~~~~~~~~~~~~~~~~~~~~~~~
