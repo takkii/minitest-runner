@@ -5,7 +5,7 @@ _gem 'minitest-reporters'に依存しています。_
 #### ./mini_testフォルダへテストファイルを入れます
 
 ```markdown
-https://github.com/takkii/minitest-runner.git
+git clone https://github.com/takkii/minitest-runner.git
 cd minitest-runner
 cp -r mini_test ~/mini_test
 ```
