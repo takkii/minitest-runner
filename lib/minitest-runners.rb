@@ -48,7 +48,10 @@ end
 begin
   puts ''
   puts ' mini_test in filename list '.center(80, '~')
+  puts ''
+  puts ' minitest file load '.center(80, '~')
 
+  puts ''
   using MiniFileN
   MiniFilename.new.mini_find
   puts ''
