@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/minitest-runner.svg)](http://badge.fury.io/rb/minitest-runner)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Build Status](https://travis-ci.org/takkii/minitest-runner.svg?branch=main)](https://travis-ci.org/takkii/minitest-runner)![GitHub release](https://img.shields.io/github/release/takkii/minitest-runner.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/minitest-runner.svg?style=flat)](GitHub)
+
 ### minitest-runners
 
 _gem 'minitest-reporters'に依存しています。_
