@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Sample
   def self.ruby
     require 'minitest-runners'
@@ -10,4 +12,7 @@ rescue StandardError => e
   puts e.backtrace
 ensure
   GC.start
-end   
+end
+
+__END__
+   
