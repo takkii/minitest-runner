@@ -4,4 +4,10 @@ class Sample
   end
 end
 
-Sample.ruby    
+begin
+  Sample.ruby
+rescue StandardError => e
+  puts e.backtrace
+ensure
+  GC.start
+end   
