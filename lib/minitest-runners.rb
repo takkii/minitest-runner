@@ -9,7 +9,7 @@ Encoding.default_external = 'UTF-8'
 # SubClass test function.
 class MiniTestOne
   def mini_test
-    Dir["#{Dir.home}/minitest/minitest-runner/mini_test/*.rb"].sort.filter do |file|
+    Dir["#{Dir.home}/minitest/**/mini_test/*.rb"].sort.filter do |file|
       require file
     end
   end
@@ -18,7 +18,7 @@ end
 # SubClass current directory
 class MiniFilename
   def mini_find
-    puts Dir.glob("#{Dir.home}/minitest/minitest-runner/mini_test/*.rb")
+    puts Dir.glob("#{Dir.home}/minitest/**/mini_test/*.rb")
   end
 end
 
